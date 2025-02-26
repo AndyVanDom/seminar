@@ -1,0 +1,392 @@
+
+/* Title Slide settings */
+.quarto-title-author { /* space between title and author name */
+  padding-top: .5em;  
+}
+
+.quarto-title-author-email { /* change email color */
+  color: gray;
+}
+
+.quarto-title-affiliation { /* change affiliation color, add link */
+  color: gray;
+}
+
+/* ################ */
+
+
+
+/* Reveal settings */
+.reveal h2 {
+  margin: 0; /* Remove margin space between header and sub-header */
+}
+
+.reveal .slides>section {
+  top: 60px; /* Makes space for the simple menu. May screw with absolute positioning. Use Chrome dev tools */
+}
+
+.reveal h3 {
+  font-size: 20pt;
+}
+
+.reveal .slide ul li { /* remove spacing margins in lists */
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+}
+
+/* ################ */
+
+
+/* ################ */
+/* Custom fragment settings */
+
+/* Fragment slides in from the left */
+.reveal .slides section .fragment.slide-in-from-left {
+  transform: translateX(-100vh);
+  opacity: 0;
+  transition: transform 0.75s ease-out, opacity 0.5s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-left.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+/* ######## */
+
+/* Fragment slides in from the right */
+.reveal .slides section .fragment.slide-in-from-right {
+  transform: translateX(100vh);
+  opacity: 0;
+  transition: transform 0.75s ease-out, opacity 0.5s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-right.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+/* ######## */
+
+/* Fragment slides in from the top */
+.reveal .slides section .fragment.slide-in-from-top {
+  transform: translateY(-100vh);
+  opacity: 0;
+  transition: transform 0.75s ease-out, opacity 0.5s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-top.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+/* ######## */
+
+/* Fragment slides in from the bottom */
+.reveal .slides section .fragment.slide-in-from-bottom {
+  transform: translateY(100vh); /* Start completely off the bottom */
+  opacity: 0;
+  transition: transform 0.75s ease-out, opacity 0.5s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-bottom.visible {
+  transform: translateY(0); /* End at the original position */
+  opacity: 1;
+}
+/* ######## */
+
+
+/* Fragment slides in from the left then out to the right */
+.reveal .slides section .fragment.slide-in-from-left-then-right {
+  transform: translateX(-100vh);
+  opacity: 0;
+  transition: transform 0.75s ease-out, opacity 0.5s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-left-then-right.current-fragment.visible {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 0.75s ease-out, opacity 1s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-left-then-right.visible {
+  transform: translateX(100vh);
+}
+/* ######## */
+
+/* Fragment slides in from the right then out to the left */
+.reveal .slides section .fragment.slide-in-from-right-then-left {
+  transform: translateX(100vh);
+  opacity: 0;
+  transition: transform 0.75s ease-out, opacity 0.5s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-right-then-left.current-fragment.visible {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 0.75s ease-out, opacity 1s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-right-then-left.visible {
+  transform: translateX(-100vh);
+}
+/* ######## */
+
+/* Fragment slides in from the top then out to the bottom */
+.reveal .slides section .fragment.slide-in-from-top-then-bottom {
+  transform: translateY(-100vh);
+  opacity: 0;
+  transition: transform 0.75s ease-out, opacity 0.5s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-top-then-bottom.current-fragment.visible {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 0.75s ease-out, opacity 1s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-top-then-bottom.visible {
+  transform: translateY(100vh);
+}
+/* ######## */
+
+/* Fragment slides in from the bottom then out to the top */
+.reveal .slides section .fragment.slide-in-from-bottom-then-top {
+  transform: translateY(100vh); /* Start completely off the bottom */
+  opacity: 0;
+  transition: transform 0.75s ease-out, opacity 0.5s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-bottom-then-top.current-fragment.visible {
+  transform: translateY(0); /* End at the original position */
+  opacity: 1;
+}
+
+.reveal .slides section .fragment.slide-in-from-bottom-then-top.visible {
+  transform: translateY(-100vh);
+}
+/* ######## */
+
+/* Fragment slides in from the left then fade out */
+.reveal .slides section .fragment.slide-in-from-left-then-fade {
+  transform: translateX(-100vh);
+  opacity: 0;
+  transition: transform 0.75s ease-out, opacity 0.5s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-left-then-fade.current-fragment.visible {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 0.75s ease-out, opacity 1s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-left-then-fade.visible {
+  opacity: 0;
+}
+/* ######## */
+
+/* Fragment slides in from the left then fade out */
+.reveal .slides section .fragment.slide-in-from-right-then-fade {
+  transform: translateX(100vh);
+  opacity: 0;
+  transition: transform 0.75s ease-out, opacity 0.5s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-right-then-fade.current-fragment.visible {
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 0.75s ease-out, opacity 1s ease-out;
+}
+
+.reveal .slides section .fragment.slide-in-from-right-then-fade.visible {
+  opacity: 0;
+}
+/* ######## */
+
+
+/* ################################################################ */
+/* EXPERIMENTAL fragment settings (Not now) */
+
+
+/* The container sets the 3D perspective */
+.flip-card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+/* The inner container holds both sides and will be rotated */
+.flip-card-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 1.2s;
+  transform-style: preserve-3d;
+  transform: rotateY(0); /* initial state: front side visible */
+}
+
+/* Reveal.js fragment triggers the flip by adding the .visible class */
+.reveal .slides section .fragment.flip-card .flip-card-inner {
+  opacity: 0;
+  transition: transform 0.75s ease-out, opacity 0.5s ease-out;
+}
+
+.reveal .slides section .fragment.flip-card.current-fragment.visible .flip-card-inner {
+  opacity: 1;
+  transform: rotateY(180deg);
+}
+
+/* Both sides are positioned absolutely and hidden from the backface */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 8px;
+}
+
+/* Front side styling */
+.flip-card-front {
+  background-color: #2980b9;
+}
+
+/* Back side styling (rotated 180deg so it appears correctly when flipped) */
+.flip-card-back {
+  background-color: #27ae60;
+  transform: rotateY(180deg);
+}
+
+/* I'll save this for later. Here's the code: ::: {.fragment .flip-card}
+
+````{=html}
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      Front Side Text
+    </div>
+    <div class="flip-card-back">
+      Back Side Text
+    </div>
+  </div>
+</div>
+````
+::: */
+
+/* ################################ */
+
+
+/* Image settings */
+.reveal img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* ################ */
+
+
+
+.slide-deck {
+  border: 3px solid #dee2e6;
+  width: 100%;
+  height: 475px;
+}
+
+.section-title-text {
+  font-size: 50pt;
+  font-style: bold;
+  position:absolute; 
+  left: 0; 
+  right: 0; 
+  top: 250px; 
+  margin-inline: auto; 
+  width: fit-content;
+}
+
+.reveal .slide-logo {
+  height: 50px !important;
+  max-height: unset !important;
+}
+
+.footer {
+  font-size: 17pt;
+}
+
+
+/* Stacked image container */
+
+.image-stack-container img {
+  width: auto; /* Set the desired width for all logos */
+  height: 100px; /* Set the desired height for all logos */
+  object-fit: contain; /* Ensure the image scales to fit within the box without distortion */
+  display: block;
+  margin: 0 auto; /* Center the logos */
+}
+
+.center-xy {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%), translateX(-50%);
+  transform: translateY(-50%), translateX(-50%);
+}
+
+
+/* SimpleMenu - Menu Bar */
+
+.menubar > ul a {
+  color: #385E9D !important;
+}
+
+/* */
+
+
+
+/* ################################################################ */
+/* Textbox settings */
+
+.dementia-text-box {
+  text-align: center; 
+  border-radius: 8px; 
+  box-shadow: -14px 14px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.dementia-text-box:hover {
+    transform: scale(1.20);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.overview-text-box:hover {
+    transform: scale(1.25);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.overview-text-box {
+  text-align: center; 
+  border-radius: 8px; 
+  box-shadow: -14px 14px 6px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.overview-text-box:hover {
+    transform: scale(1.20);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ########################### */
+
+/* ################################################################ */
+/* Color settings */
+
+:root {
+  --lab-blue: #385E9D;
+  --lab-yellow: #F2A900;
+}

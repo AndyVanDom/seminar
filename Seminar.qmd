@@ -1,0 +1,329 @@
+---
+title: 'Title'
+subtitle: 'an introduction and overview'
+format:
+  revealjs:
+    section-divs: false
+    title-slide-attributes:
+        data-state: "hide-menubar"
+    logo: img/um.png
+    css: seminar.css
+    slide-number: true
+    progress: true
+    theme: default
+    controls: true
+    controls-layout: edges
+    chalkboard: false
+    menu: false
+    simplemenu:
+        flat: true
+        barhtml:
+            header: "<div class='menubar'><a class='logo' href='#'><img src='img/drog_horiz.png' style='width: 250px; padding-left: 30px;'></a><ul class='menu'></ul><div class='slide-number'></div><div>"
+        scale: 0.6
+revealjs-plugins:
+  - appearance
+  - pointer
+  - simplemenu
+  - subtitles
+author:
+  - name: Andrew Van Domelen
+    email: vandomea@myumanitoba.ca
+    affiliations: University of Manitoba, Department of Biochemistry and Medical Genetics
+date: "March 5, 2025"
+
+---
+
+## Dementia {data-name="Background" auto-animate="true"}
+### A Common Neurodegenerative Disorder {style="color: gray;"}
+
+::: {.fragment fragment-index='1' .fade-in}
+Symptoms
+:::
+
+::: {.fragment fragment-index='3' .fade-in}
+Demographics
+:::
+
+
+::: {data-id="brain" .fragment fragment-index='1' .slide-in-from-top style="position: absolute; top: 250px; left: 650px; width: 275px; height: auto;"}
+![](img/dem/brain.png)
+:::
+
+
+::: {.fragment fragment-index='1' .slide-in-from-bottom-then-top style="position: absolute; left: 975px; top: 275px; width: 200px; height: auto;"}
+![](img/dem/dem_mem.png){data-id="cog1"}
+:::
+
+::: {.fragment fragment-index='1' .slide-in-from-bottom-then-top style="position: absolute; left: 400px; top: 275px; width: 200px; height: auto;"}
+![](img/dem/dem_com.png){data-id="cog2"}
+:::
+
+::: {.fragment fragment-index='1' .slide-in-from-bottom-then-top style="position: absolute; left: 525px; top: 50px; width: 200px; height: auto;"}
+![](img/dem/dem_coord.png){data-id="cog3"}
+:::
+
+::: {.fragment fragment-index='1' .slide-in-from-bottom-then-top style="position: absolute; left: 825px; top: 50px; width: 200px; height: auto;"}
+![](img/dem/dem_disor.png){data-id="cog4"}
+:::
+
+::: {.fragment fragment-index='2' .slide-in-from-bottom-then-top style="position: absolute; left: 975px; top: 275px; width: 200px; height: auto;"}
+![](img/dem/dem_pers.png){data-id="psych1"}
+:::
+
+::: {.fragment fragment-index='2' .slide-in-from-bottom-then-top style="position: absolute; left: 400px; top: 275px; width: 200px; height: auto;"}
+![](img/dem/dem_dep.png){data-id="psych2"}
+:::
+
+::: {.fragment fragment-index='2' .slide-in-from-bottom-then-top style="position: absolute; left: 525px; top: 50px; width: 200px; height: auto;"}
+![](img/dem/dem_anx.png){data-id="psych3"}
+:::
+
+::: {.fragment fragment-index='2' .slide-in-from-bottom-then-top style="position: absolute; left: 825px; top: 50px; width: 200px; height: auto;"}
+![](img/dem/dem_par.png){data-id="psych4"}
+:::
+
+::: {.fragment fragment-index='3' .fade-in style="position: absolute; left: 935px; top: 125px; width: 265px; height: auto;"}
+![](img/dem/dem_demo_sex.png){auto-animate-id="demogr1"}
+:::
+
+::: {.fragment fragment-index='3' .fade-in style="position: absolute; left: 325px; top: 125px; width: 350px; height: auto;"}
+![](img/dem/dem_demo_eth.png){auto-animate-id="demogr2"}
+:::
+
+::: {.fragment fragment-index='3' .fade-in style="position: absolute; left: 665px; top: 0px; width: 250px; height: auto;"}
+![](img/dem/dem_demo_age.png){auto-animate-id="demogr3"}
+:::
+
+::: {data-id="subtype1" style="position: absolute; left: 300px; top: -4000px; width: 950px; height: auto;"}
+![](img/dem/dem_sub_umb.png)
+:::
+
+::: {data-id="subtype2" style="position: absolute; left: 300px; top: 6000px; width: 950px; height: auto;"}
+![](img/dem/dem_sub_text.png)
+:::
+
+## Dementia {auto-animate="true"}
+### A Common Neurodegenerative Disorder {style="color: gray;"}
+
+::: {style="opacity: 50%;"}
+Symptoms
+
+Demographics
+:::
+
+Subtypes
+
+
+::: {data-id="subtype1" style="position: absolute; left: 300px; top: 0px; width: 950px; height: auto;"}
+![](img/dem/dem_sub_umb.png)
+:::
+
+::: {data-id="subtype2" style="position: absolute; left: 300px; top: 0px; width: 950px; height: auto;"}
+![](img/dem/dem_sub_text.png)
+:::
+
+## Dementia {auto-animate="true"}
+### A Common Neurodegenerative Disorder {style="color: gray;"}
+
+::: {style="opacity: 50%;"}
+Symptoms
+
+Demographics
+
+Subtypes
+:::
+
+Causes
+
+
+
+::: {.fragment .fade-in fragment-index=1 .dementia-text-box style="text-align: center; background: #385E9D; color: white; position: absolute; top: 50px; left: 550px; width: 450px; padding: 0.1em;"}
+
+PROTEIN AGGREGATES
+
+(tau, amyloids, others)
+
+:::
+
+::: {.fragment .fade-in-then-out fragment-index=1 data-id="amyloid-salahuddin" style="position: absolute; left: 400px; top: 200px; width: 950px; height: auto;"}
+![](img/dem/amyloids.jpg)
+:::
+
+::: {.fragment .fade-in fragment-index=2 .dementia-text-box style="text-align: center;  background: #385E9D; color: white; position: absolute; top: 205px; left: 550px; width: 450px; padding: 0.1em;"}
+
+LOSS OF NEURONS and SYNAPSE CONNECTIONS
+:::
+
+::: {.fragment .fade-in fragment-index=3 .dementia-text-box style="text-align: center; background: #385E9D; color: white; position: absolute; top: 350px; left: 550px; width: 450px; padding: 0.1em;"}
+
+CHRONIC INFLAMMATION
+:::
+
+::: {.fragment .fade-in fragment-index=4 .dementia-text-box style="text-align: center; background: #385E9D; color: white; position: absolute; top: 445px; left: 550px; width: 450px; padding: 0.1em;"}
+
+VASCULAR DAMAGE
+:::
+
+
+## Dementia {auto-animate="true"}
+### A Common Neurodegenerative Disorder {style="color: gray;"}
+
+::: {style="opacity: 50%;"}
+Symptoms
+
+Demographics
+
+Subtypes
+
+Causes
+:::
+
+Regions
+
+
+
+::: {.fragment .fade-in-then-semi-out fragment-index=1 style="text-align: center; position: absolute; top: 15px; left: 675px; width: 350px; font-size: 20pt;"}
+**TEMPORAL LOBE**
+
+(learning and memory)
+:::
+
+::: {.fragment .fade-in-then-semi-out fragment-index=2 style="text-align: center; position: absolute; top: 115px; left: 675px; width: 350px; font-size: 20pt;"}
+**CEREBRAL CORTEX**
+
+(intelligence, behaviour, language, etc.)
+:::
+
+::: {.fragment .fade-in-then-semi-out fragment-index=3 style="text-align: center; position: absolute; top: 250px; left: 775px; width: 350px; font-size: 20pt;"}
+**OTHER BRAIN REGIONS**
+
+(brain shrinking, decreased neurogenesis)
+:::
+
+::: {.fragment .fade-in fragment-index=4 style="text-align: center; position: absolute; top: 400px; left: 775px; width: 350px; font-size: 20pt;"}
+**OTHER AREAS OF BODY**
+
+(gut lining, CNS, PNS)
+:::
+
+::: {.fragment .fade-out fragment-index=1 style="position: absolute; top: 0px; left: 450px; width: 350px;"}
+![](img/dem/body_whole.png)
+:::
+
+::: {.fragment .fade-in fragment-index=1 style="position: absolute; top: 0px; left: 450px; width: 350px;"}
+::: {.fragment .fade-out fragment-index=4}
+![](img/dem/body_brain.png)
+:::
+:::
+
+::: {.fragment .fade-in-then-out fragment-index=4 style="position: absolute; top: 0px; left: 450px; width: 350px;"}
+![](img/dem/body_gut.png)
+:::
+
+
+## Dementia {transition="fade" transition-speed="fast" .scrollable}
+### Global Risk Factors: [Lancet Report 2024](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01296-0/fulltext){target="_blank"}
+
+
+:::: {.fragment .fade-in style="position: absolute; left: 200px; top: 100px; width: 750px; height: auto;"}
+![](img/dem/dem_lancet.jpg)
+
+::: {data-id="4em-space" style="display:inline-block; height:4em;"}
+:::
+
+::::
+
+
+## Dementia {transition="fade" transition-speed="fast" .scrollable}
+### **Canada** Risk Factors: [Son 2024](https://www.sciencedirect.com/science/article/pii/S2274580724006800?via%3Dihub){target="_blank"}
+
+
+:::: {.fragment .fade-in style="position: absolute; left: 150px; top: 100px; width: 850px; height: auto;"}
+![](img/dem/dem_son2.jpg)
+:::
+
+::: {data-id="4em-space" style="display:inline-block; height:4em;"}
+::::
+
+
+
+## Age-Related Hearing Loss (ARHL) {auto-animate="true"}
+### A Common Sensory Impairment {style="color: gray;"}
+
+::: {.fragment fragment-index='1' .fade-in}
+Symptoms
+:::
+
+::: {.fragment fragment-index='3' .fade-in}
+Demographics
+:::
+
+(A work in progress!)
+
+## Project Overview {data-name="Overview"}
+
+::: {.fragment .fade-in fragment-index=1 .overview-text-box style="color: white; background: #385E9D; position: absolute; top: 100px; left: 50px; width: 1000px;"}
+
+[Hypothesis]{style="color: white; text-decoration: underline;"}
+
+lorem
+:::
+
+::: {.fragment .fade-in fragment-index=2 .overview-text-box style="text-align: center; background: gray; color: white; position: absolute; top: 275px; left: 85px; width: 450px;"}
+
+Aim 1
+
+::: {.fragment .fade-in fragment-index=3}
+- list
+:::
+
+::: {.fragment .fade-in fragment-index=4}
+- list a
+:::
+:::
+
+::: {.fragment .fade-in fragment-index=5 .overview-text-box style="text-align: center; background: gray; color: white; position: absolute; top: 275px; left: 570px; width: 450px;"}
+
+Aim 2
+
+::: {.fragment .fade-in fragment-index=6}
+- list
+:::
+
+::: {.fragment .fade-in fragment-index=7}
+- list a
+:::
+:::
+
+
+## CLSA {data-name="Aim 1"}
+### Canadian Longitudinal Study on Aging {style="color: gray;"}
+
+::: {.fragment .fade-in-then-out style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
+![](img/aim1/clsa_desc.jpg)
+:::
+
+::: {.fragment .fade-in-then-out style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
+![](img/aim1/clsa_desc_num.jpeg)
+:::
+
+::: {.fragment .fade-in-then-out style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
+![](img/aim1/clsa_desc_num_hl.jpeg)
+:::
+
+::: {.fragment .fade-in style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
+![](img/aim1/clsa_desc_timeline.jpeg)
+:::
+
+::: {.fragment .fade-in style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
+![](img/aim1/clsa_desc_timeline_hl.jpeg)
+:::
+
+## CLSA {data-name="Aim 1"}
+### Demographics {style="color: gray;"}
+
+
+
+- I still need to include plots on demographics
+
+## Aim 2 {data-name="Aim 2"}
