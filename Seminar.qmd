@@ -305,10 +305,237 @@ GENETICS
 
 ::: {.incremental}
 - **Sensory Deprivation**: Poor hearing leads to high cognitive load
-- **Social Isolation**: Depression from poor social interactions, low auditory input
+- **Social Isolation**: Depression from poor social interactions and low auditory input
 - **Mediating Pathology**: External mechanism acting on auditory pathway *and* brain
 - **Causal Relationship**: ARHL causes Dementia
 :::
+
+## ARHL and Dementia [Genetic Studies]{style="font-size: 20pt; color: gray; text-align: right;"}
+
+:::: {.fragment fragment-index=1 .fade-out style="position: absolute; top: 75px; left: 0px;"}
+````{=html}
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Paper</th>
+    <th class="tg-0pky">Study Design</th>
+    <th class="tg-0pky">n</th>
+    <th class="tg-0pky">Pop.</th>
+    <th class="tg-0pky">Hearing Loss Phenotype</th>
+    <th class="tg-0pky">Cog. Phenotype</th>
+    <th class="tg-0pky">Finding</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Mitchell 2020</td>
+    <td class="tg-0pky">GWAS-PW, MR, PGS</td>
+    <td class="tg-0pky">250k</td>
+    <td class="tg-0pky">European</td>
+    <td class="tg-0pky">Self-reported Hearing Difficulty</td>
+    <td class="tg-0pky">Clinical Diagnosis, 'AD-by-Proxy'</td>
+    <td class="tg-0pky">No Causal Effect, AD PGS predicts H. Diff.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Brenowitz 2020</td>
+    <td class="tg-0pky">MR, PGS</td>
+    <td class="tg-0pky">245k</td>
+    <td class="tg-0pky">European</td>
+    <td class="tg-0pky">Digital Triplet Test, <br>Self-report</td>
+    <td class="tg-0pky">Verbal Reasoning test score, <br>AD PGS (based on 25 genetic loci)</td>
+    <td class="tg-0pky">Association between AD PGS and <br>poor speech-in-noise hearing,<br>No Association between Hearing PGS <br>and cognitive scores.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Xu 2024</td>
+    <td class="tg-0pky">MR, Cross-sectional <br>Study</td>
+    <td class="tg-0pky">500k (Eur.)<br>363 (Chin.)</td>
+    <td class="tg-0pky">European<br>and Chinese</td>
+    <td class="tg-0pky">Self-report, Audiometry</td>
+    <td class="tg-0pky">Battery of Cognitive Tests</td>
+    <td class="tg-0pky">Hearing Loss is a risk factor for <br>cognitive impairment</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Wang 2022</td>
+    <td class="tg-0pky">PGS, cross-sectional <br>and longitudinal analysis</td>
+    <td class="tg-0pky">500k (Eur.)<br></td>
+    <td class="tg-0pky">European <br>and Chinese</td>
+    <td class="tg-0pky">Self-report, Speech-in-Noise Test</td>
+    <td class="tg-0pky">Battery of Cognitive Tests, <br>Imaging Data, CSF Protein levels <br>(tau, amyloid-beta)</td>
+    <td class="tg-0pky">Hearing Impairment is associated with <br>cognitive decline, brain atrophy, <br>and tau levels</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Abidin 2021</td>
+    <td class="tg-0pky">MR, Gene-set and <br>function enrichment</td>
+    <td class="tg-0pky">250k</td>
+    <td class="tg-0pky">European</td>
+    <td class="tg-0pky">Self-report</td>
+    <td class="tg-0pky">Clinical Diagnosis</td>
+    <td class="tg-0pky">No Genetic Correlation, Possible causal<br>relationship from AD to HL via APOE locus</td>
+  </tr>
+  <!-- made here: https://www.tablesgenerator.com/html_tables -->
+</tbody></table>
+
+
+````
+::::
+
+:::: {.fragment fragment-index=1 .fade-in-then-out style="position: absolute; top: 75px; left: 0px;"}
+````{=html}
+
+<!-- colored in "Finding" cells -->
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Paper</th>
+    <th class="tg-0pky">Study Design</th>
+    <th class="tg-0pky">Sample Size</th>
+    <th class="tg-0pky">Population</th>
+    <th class="tg-0pky">Hearing Loss Phenotype</th>
+    <th class="tg-0pky">Cog. Phenotype</th>
+    <th class="tg-0pky">Finding</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Mitchell 2020</td>
+    <td class="tg-0pky">GWAS-PW, MR, PGS</td>
+    <td class="tg-0pky">250k</td>
+    <td class="tg-0pky">European</td>
+    <td class="tg-0pky">Self-reported Hearing Difficulty</td>
+    <td class="tg-0pky">Clinical Diagnosis, 'AD-by-Proxy'</td>
+    <td class="tg-0pky" style="background: #ffffa0;">No Causal Effect, AD PGS predicts H. Diff.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Brenowitz 2020</td>
+    <td class="tg-0pky">MR, PGS</td>
+    <td class="tg-0pky">245k</td>
+    <td class="tg-0pky">European</td>
+    <td class="tg-0pky">Digital Triplet Test, <br>Self-report</td>
+    <td class="tg-0pky">Verbal Reasoning test score, <br>AD PGS (based on 25 genetic loci)</td>
+    <td class="tg-0pky" style="background: #ffffa0;">Association between AD PGS and <br>poor speech-in-noise hearing,<br>No Association between Hearing PGS <br>and cognitive scores.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Xu 2024</td>
+    <td class="tg-0pky">MR, Cross-sectional <br>Study</td>
+    <td class="tg-0pky">500k (Eur.)<br>363 (Chin.)</td>
+    <td class="tg-0pky">European<br>and Chinese</td>
+    <td class="tg-0pky">Self-report, Audiometry</td>
+    <td class="tg-0pky">Battery of Cognitive Tests</td>
+    <td class="tg-0pky" style="background: #c3f78c;">Hearing Loss is a risk factor for <br>cognitive impairment</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Wang 2022</td>
+    <td class="tg-0pky">PGS, cross-sectional <br>and longitudinal analysis</td>
+    <td class="tg-0pky">500k (Eur.)<br></td>
+    <td class="tg-0pky">European <br>and Chinese</td>
+    <td class="tg-0pky">Self-report, Speech-in-Noise Test</td>
+    <td class="tg-0pky">Battery of Cognitive Tests, <br>Imaging Data, CSF Protein levels <br>(tau, amyloid-beta)</td>
+    <td class="tg-0pky" style="background: #c3f78c;">Hearing Impairment is associated with <br>cognitive decline, brain atrophy, <br>and tau levels</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Abidin 2021</td>
+    <td class="tg-0pky">MR, Gene-set and <br>function enrichment</td>
+    <td class="tg-0pky">250k</td>
+    <td class="tg-0pky">European</td>
+    <td class="tg-0pky">Self-report</td>
+    <td class="tg-0pky">Clinical Diagnosis</td>
+    <td class="tg-0pky" style="background: #ff8282;">No Genetic Correlation, Possible causal<br>relationship from AD to HL via APOE locus</td>
+  </tr>
+  <!-- made here: https://www.tablesgenerator.com/html_tables -->
+</tbody></table>
+
+
+````
+::::
+
+:::: {.fragment fragment-index=2 .fade-in style="position: absolute; top: 75px; left: 0px;"}
+````{=html}
+
+<!-- Highlighting Phenotypes -->
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Paper</th>
+    <th class="tg-0pky">Study Design</th>
+    <th class="tg-0pky">Sample Size</th>
+    <th class="tg-0pky">Population</th>
+    <th class="tg-0pky">Hearing Loss Phenotype</th>
+    <th class="tg-0pky">Cog. Phenotype</th>
+    <th class="tg-0pky">Finding</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Mitchell 2020</td>
+    <td class="tg-0pky">GWAS-PW, MR, PGS</td>
+    <td class="tg-0pky">250k</td>
+    <td class="tg-0pky">European</td>
+    <td class="tg-0pky" style="background: #e5e4e0;">Self-reported Hearing Difficulty</td>
+    <td class="tg-0pky" style="background: #e5e4e0;">Clinical Diagnosis, 'AD-by-Proxy'</td>
+    <td class="tg-0pky" style="background: #ffffa0;">No Causal Effect, AD PGS predicts H. Diff.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Brenowitz 2020</td>
+    <td class="tg-0pky">MR, PGS</td>
+    <td class="tg-0pky">245k</td>
+    <td class="tg-0pky">European</td>
+    <td class="tg-0pky" style="background: #e5e4e0;">Digital Triplet Test, <br>Self-report</td>
+    <td class="tg-0pky" style="background: #e5e4e0;">Verbal Reasoning test score, <br>AD PGS (based on 25 genetic loci)</td>
+    <td class="tg-0pky" style="background: #ffffa0;">Association between AD PGS and <br>poor speech-in-noise hearing,<br>No Association between Hearing PGS <br>and cognitive scores.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Xu 2024</td>
+    <td class="tg-0pky">MR, Cross-sectional <br>Study</td>
+    <td class="tg-0pky">500k (Eur.)<br>363 (Chin.)</td>
+    <td class="tg-0pky">European<br>and Chinese</td>
+    <td class="tg-0pky" style="background: #e5e4e0;">Self-report, Audiometry</td>
+    <td class="tg-0pky" style="background: #e5e4e0;">Battery of Cognitive Tests</td>
+    <td class="tg-0pky" style="background: #c3f78c;">Hearing Loss is a risk factor for <br>cognitive impairment</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Wang 2022</td>
+    <td class="tg-0pky">PGS, cross-sectional <br>and longitudinal analysis</td>
+    <td class="tg-0pky">500k (Eur.)<br></td>
+    <td class="tg-0pky">European <br>and Chinese</td>
+    <td class="tg-0pky" style="background: #e5e4e0;">Self-report, Speech-in-Noise Test</td>
+    <td class="tg-0pky" style="background: #e5e4e0;">Battery of Cognitive Tests, <br>Imaging Data, CSF Protein levels <br>(tau, amyloid-beta)</td>
+    <td class="tg-0pky" style="background: #c3f78c;">Hearing Impairment is associated with <br>cognitive decline, brain atrophy, <br>and tau levels</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Abidin 2021</td>
+    <td class="tg-0pky">MR, Gene-set and <br>function enrichment</td>
+    <td class="tg-0pky">250k</td>
+    <td class="tg-0pky">European</td>
+    <td class="tg-0pky" style="background: #e5e4e0;">Self-report</td>
+    <td class="tg-0pky" style="background: #e5e4e0;">Clinical Diagnosis</td>
+    <td class="tg-0pky" style="background: #ff8282;">No Genetic Correlation, Possible causal<br>relationship from AD to HL via APOE locus</td>
+  </tr>
+  <!-- made here: https://www.tablesgenerator.com/html_tables -->
+</tbody></table>
+
+
+````
+::::
 
 ## Project Overview {data-name="Overview" auto-animate="true"}
 
@@ -328,7 +555,7 @@ Aim 1: Underlying Genetics
 :::
 
 ::: {.fragment .fade-in fragment-index=4 style="font-size: 20pt;"}
-- Shared Genes (MTAG)
+- Correlated Genes (MTAG)
 :::
 :::
 
@@ -355,7 +582,7 @@ Aim 2: Prediction Model
 
 [Hypothesis]{style="text-decoration: underline;"}
 
-[Specifically, we expect a mix of causal and mediating pathologies \n \s]{style="font-size: 20pt;"}
+[Specifically, we hypothesize a Causal Relationship and Mediating Pathologies \n \s]{style="font-size: 20pt;"}
 :::
 
 ::: {.overview-text-box data-id="aim1-box" style="text-align: center; background: var(--lab-yellow); color: white; position: absolute; top: 300px; left: 325px; width: 450px; padding: 0.5em; z-index: 1;"}
@@ -367,7 +594,7 @@ Aim 1: Underlying Genetics
 :::
 
 ::: {style="font-size: 20pt;"}
-- Shared Genes (MTAG)
+- Correlated Genes (MTAG)
 :::
 :::
 
@@ -384,24 +611,32 @@ Aim 2: Prediction Model
 ## CLSA {data-name="Aim 1"}
 ### Canadian Longitudinal Study on Aging {style="color: gray;"}
 
-::: {.fragment .fade-in-then-out style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
+::: {.fragment fragment-index=1 .fade-in-then-out style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
 ![](img/aim1/clsa_desc.jpg)
 :::
 
-::: {.fragment .fade-in-then-out style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
+::: {.fragment fragment-index=2 .fade-in-then-out style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
 ![](img/aim1/clsa_desc_num.jpeg)
 :::
 
-::: {.fragment .fade-in-then-out style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
+::: {.fragment fragment-index=3 .fade-in-then-out style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
 ![](img/aim1/clsa_desc_num_hl.jpeg)
 :::
 
-::: {.fragment .fade-in style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
+::: {.fragment fragment-index=3 .fade-in-then-out style="position: absolute; left: 850px; top: 200px; width: 600px; height: auto; color: red; font-size: 20pt;"}
+Comprehensive Cohort
+:::
+
+::: {.fragment fragment-index=4 .fade-in style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
 ![](img/aim1/clsa_desc_timeline.jpeg)
 :::
 
-::: {.fragment .fade-in style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
+::: {.fragment fragment-index=5 .fade-in style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
 ![](img/aim1/clsa_desc_timeline_hl.jpeg)
+:::
+
+::: {.fragment fragment-index=5 .fade-in style="position: absolute; left: 45px; top: 350px; width: 200px; height: auto; color: red; font-size: 20pt; text-align: right;"}
+Cross-Sectional and Longitudinal Data
 :::
 
 ## CLSA 
