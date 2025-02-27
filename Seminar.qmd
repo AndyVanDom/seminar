@@ -608,8 +608,8 @@ Aim 2: Prediction Model
 
 :::
 
-## CLSA {data-name="Aim 1"}
-### Canadian Longitudinal Study on Aging {style="color: gray;"}
+## CLSA {data-name="Data"}
+### (Canadian Longitudinal Study on Aging) {style="color: gray;"}
 
 ::: {.fragment fragment-index=1 .fade-in-then-out style="position: absolute; left: 250px; top: 100px; width: 600px; height: auto;"}
 ![](img/aim1/clsa_desc.jpg)
@@ -642,37 +642,152 @@ Cross-Sectional and Longitudinal Data
 ## CLSA 
 ### Demographics {style="color: gray;"}
 
-- I still need to include plots on demographics
-- age, province, sex, personal income, urban_rural, education level
-- variables that paint a picture of the CLSA dataset
+
+::: {.fragment fragment-index=1 .fade-out style="position: absolute; left: 250px; top: 50px; width: 750px; height: auto;"}
+![](img/aim1/clsa/clsa_age_by_sex.png)
+:::
+
+::: {.fragment fragment-index=1 .slide-in-from-right-then-fade style="position: absolute; left: 350px; top: 10px; width: 650px; height: auto;"}
+![](img/aim1/clsa/clsa_prov_by_age.png)
+:::
+
+::: {.fragment fragment-index=2 .slide-in-from-right-then-fade style="position: absolute; left: 350px; top: 10px; width: 650px; height: auto;"}
+![](img/aim1/clsa/clsa_ed_by_age.png)
+:::
+
+::: {.fragment fragment-index=3 .slide-in-from-right style="position: absolute; left: 350px; top: 10px; width: 650px; height: auto;"}
+![](img/aim1/clsa/clsa_inc_by_age.png)
+:::
 
 ## Phenotypes
-### Cognitive Impairment {style="color: gray;"}
+### Cognitive Impairment Indicator {style="color: gray;"}
 
-- CII
+::: {.fragment fragment-index=1 .fade-in-then-out}
+Memory (REY)
 
-## Phenotypes {#sec-arhl-phen}
+and
+
+Executive Function
+:::
+
+::: {.fragment fragment-index=1 .fade-out style="position: absolute; left: 400px; top: 10px; width: 850px; height: auto;"}
+![](img/aim1/CII_table.png)
+:::
+
+::: {.fragment fragment-index=1 .fade-in-then-out style="position: absolute; left: 400px; top: 10px; width: 850px; height: auto;"}
+![](img/aim1/CII_table_tests.png)
+:::
+
+::: {.fragment fragment-index=1 .fade-in-then-out style="position: absolute; left: 650px; top: 100px; width: 550px; height: auto;"}
+![](img/aim1/CII_table_tests_hl.png)
+:::
+
+::: {.fragment fragment-index=2 .fade-in-then-out style="position: absolute; left: 400px; top: 10px; width: 850px; height: auto;"}
+![](img/aim1/CII_table_imp.png)
+:::
+
+::: {.fragment fragment-index=2 .fade-in-then-out style="position: absolute; left: 0px; top: 200px; width: 1150px; height: auto;"}
+![](img/aim1/CII_table_imp_hl.png)
+:::
+
+::: {.fragment fragment-index=3 .slide-in-from-left-then-fade style="position: absolute; left: 400px; top: 10px; width: 750px; height: auto;"}
+![](img/aim1/cii_by_age.png)
+:::
+
+::: {.fragment fragment-index=4 .slide-in-from-left-then-fade style="position: absolute; left: 400px; top: 10px; width: 650px; height: auto;"}
+![](img/aim1/cii_by_sex.png)
+:::
+
+::: {.fragment fragment-index=5 .slide-in-from-left-then-fade style="position: absolute; left: 400px; top: 10px; width: 650px; height: auto;"}
+![](img/aim1/cii_by_ed.png)
+:::
+
+## Phenotypes {#sec-arhl-phen auto-animate="true"}
 ### ARHL Subtype Estimates {style="color: gray;"}
 
-- plot
+::: {.fragment fragment-index=1 .semi-fade-out data-id="audio" style="position: absolute; top: 0px; left: 500px; width: 525px;"}
+::: {.fragment fragment-index=2 .fade-out}
+![](img/ear/ear_audiogram.png)
+:::
+:::
+
+::: {.fragment fragment-index=1 .fade-in-then-out style="position: absolute; top: 125px; left: 100px; width: 525px;"}
+![](img/aim1/vaden_plot.jpeg)
+:::
+
+::: {.fragment fragment-index=2 .fade-in}
+Automated ARHL Phenotype
+:::
+
+::: {.fragment fragment-index=2 .fade-in style="position: absolute; left: 50px; top: 175px; width: 950px; height: auto;"}
+![](img/aim1/vaden_estimate.png)
+:::
 
 ::: {.footer}
 Other ARHL phenotypes: @sec-arhl-other-phen
 :::
 
-## Genotype Data {#sec-arhl-phen}
+## Genotype Data
 
-- plot
-
-::: {.footer}
-Other ARHL phenotypes: @sec-arhl-other-phen
+::: {.fragment fragment-index=1 .fade-in-then-semi-out}
+26,622 Individuals
 :::
 
-## Aim 2 {data-name="Aim 2"}
+::: {.fragment fragment-index=2 .fade-in-then-semi-out}
+794k genotyped variants
 
+308 million imputed variants
+:::
+
+::: {.fragment fragment-index=3 .fade-in}
+Extensive QC
+:::
+
+::: {.fragment fragment-index=1 .fade-in style="position: absolute; left: 500px; top: 50px; width: 600px; height: auto;"}
+![](img/aim1/clsa/clsa_ancestry.png)
+:::
+
+## Initial Analysis {data-name="Results"}
+
+``` {=html}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:35px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:35px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:bold">ARHL Subtype</span></th>
+    <th class="tg-1wig"><span style="font-weight:bold">Coeff.</span><br>(SE)</th>
+    <th class="tg-0lax"><span style="font-weight:bold">OR (95% CI)</span><br></th>
+    <th class="tg-0lax"><span style="font-weight:bold">P-value</span><br></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Metabolic ARHL</td>
+    <td class="tg-0lax">0.017 (0.003)</td>
+    <td class="tg-0lax">1.016 (1.011,1.022)</td>
+    <td class="tg-0lax" style="background:#c3f78c;"><span style="font-weight:bold;">3E-9</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Sensory ARHL</td>
+    <td class="tg-0lax">-0.003 (0.004)</td>
+    <td class="tg-0lax">0.99 (0.988,1.004)</td>
+    <td class="tg-0lax">0.35</td>
+  </tr>
+</tbody>
+</table>
+  
+```
 
 ## Supplementary Slide {#sec-arhl-other-phen}
 
+icant association with estimates of metabolic hearing loss (OR=1.016 [1.011,1.022 ], P=3x10-9), whereas no significant association was observed with sensory hearing loss (OR=0.99[0.988,1.004], P=0.35). 
 hey?
 
 ::: {.footer}
