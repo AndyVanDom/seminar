@@ -137,7 +137,7 @@ Causes
 
 
 
-::: {.fragment .fade-in fragment-index=1 .dementia-text-box style="text-align: center; background: #385E9D; color: white; position: absolute; top: 50px; left: 550px; width: 450px; padding: 0.1em;"}
+::: {.dementia-text-box style="text-align: center; background: #385E9D; color: white; position: absolute; top: 50px; left: 550px; width: 450px; padding: 0.1em;"}
 
 PROTEIN AGGREGATES
 
@@ -225,7 +225,7 @@ Regions
 ### Global Risk Factors: [Lancet Report 2024](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01296-0/fulltext){target="_blank"}
 
 
-:::: {.fragment .fade-in style="position: absolute; left: 200px; top: 100px; width: 750px; height: auto;"}
+:::: {style="position: absolute; left: 200px; top: 100px; width: 750px; height: auto;"}
 ![](img/dem/dem_lancet.jpg)
 
 ::: {data-id="4em-space" style="display:inline-block; height:4em;"}
@@ -238,11 +238,12 @@ Regions
 ### **Canada** Risk Factors: [Son 2024](https://www.sciencedirect.com/science/article/pii/S2274580724006800?via%3Dihub){target="_blank"}
 
 
-:::: {.fragment .fade-in style="position: absolute; left: 150px; top: 100px; width: 850px; height: auto;"}
+:::: {style="position: absolute; left: 150px; top: 100px; width: 850px; height: auto;"}
 ![](img/dem/dem_son2.jpg)
-:::
 
 ::: {data-id="4em-space" style="display:inline-block; height:4em;"}
+:::
+
 ::::
 
 
@@ -250,51 +251,135 @@ Regions
 ## Age-Related Hearing Loss (ARHL) {auto-animate="true"}
 ### A Common Sensory Impairment {style="color: gray;"}
 
-::: {.fragment fragment-index='1' .fade-in}
+::: {.fragment fragment-index='1' .fade-in-then-semi-out}
 Symptoms
 :::
 
-::: {.fragment fragment-index='3' .fade-in}
+::: {.fragment fragment-index='2' .fade-in-then-semi-out}
 Demographics
 :::
 
-(A work in progress!)
+::: {.fragment fragment-index='3' .fade-in}
+Potential Causes
+:::
 
-## Project Overview {data-name="Overview"}
+::: {.fragment .fade-in-then-out fragment-index=1 style="position: absolute; top: 50px; left: 450px; width: 525px;"}
+![](img/ear/ear_audiogram.png)
+:::
+
+::: {.fragment fragment-index='2' .fade-in-then-out style="position: absolute; left: 150px; top: 215px; width: 325px; height: auto;"}
+![](img/ear/ear_sex.png){auto-animate-id="ear1"}
+:::
+
+::: {.fragment fragment-index='2' .fade-in-then-out style="position: absolute; left: 475px; top: 220px; width: 275px; height: auto;"}
+![](img/ear/ear_age.png){auto-animate-id="ear2"}
+:::
+
+::: {.fragment fragment-index='2' .fade-in-then-out style="position: absolute; left: 750px; top: 215px; width: 425px; height: auto;"}
+![](img/ear/ear_demo.png){auto-animate-id="ear3"}
+:::
+
+
+::: {.fragment .fade-in fragment-index=3 .dementia-text-box style="text-align: center; background: var(--lab-yellow); color: white; position: absolute; top: 85px; left: 550px; width: 500px; padding: 0.1em;"}
+ENVIRONMENTAL FACTORS
+
+(noise, drug toxicity)
+:::
+
+
+::: {.fragment .fade-in fragment-index=4 .dementia-text-box style="text-align: center;  background: var(--lab-yellow); color: white; position: absolute; top: 245px; left: 550px; width: 500px; padding: 0.1em;"}
+OXIDATIVE STRESS
+:::
+
+::: {.fragment .fade-in fragment-index=5 .dementia-text-box style="text-align: center; background: var(--lab-yellow); color: white; position: absolute; top: 345px; left: 550px; width: 500px; padding: 0.1em;"}
+CHRONIC INFLAMMATION
+:::
+
+::: {.fragment .fade-in fragment-index=6 .dementia-text-box style="text-align: center; background: var(--lab-yellow); color: white; position: absolute; top: 445px; left: 550px; width: 500px; padding: 0.1em;"}
+GENETICS
+:::
+
+
+## ARHL and Dementia
+### Hypotheses {style="color: gray;"}
+
+::: {.incremental}
+- **Sensory Deprivation**: Poor hearing leads to high cognitive load
+- **Social Isolation**: Depression from poor social interactions, low auditory input
+- **Mediating Pathology**: External mechanism acting on auditory pathway *and* brain
+- **Causal Relationship**: ARHL causes Dementia
+:::
+
+## Project Overview {data-name="Overview" auto-animate="true"}
 
 ::: {.fragment .fade-in fragment-index=1 .overview-text-box style="color: white; background: #385E9D; position: absolute; top: 100px; left: 50px; width: 1000px;"}
 
-[Hypothesis]{style="color: white; text-decoration: underline;"}
+[Hypothesis]{style="text-decoration: underline;"}
 
-lorem
+[Using clear hearing and cognitive phenotypes, we can better understand the genetic relationship between ARHL and dementia.]{style="font-size: 20pt;"}
 :::
 
-::: {.fragment .fade-in fragment-index=2 .overview-text-box style="text-align: center; background: gray; color: white; position: absolute; top: 275px; left: 85px; width: 450px;"}
+::: {.fragment .fade-in fragment-index=2 .overview-text-box data-id="aim1-box" style="text-align: center; background: gray; color: white; position: absolute; top: 300px; left: 50px; width: 450px; padding: 0.5em;"}
 
-Aim 1
+Aim 1: Underlying Genetics
 
-::: {.fragment .fade-in fragment-index=3}
-- list
+::: {.fragment .fade-in fragment-index=3 style="font-size: 20pt;"}
+- Causal Relationship (MR)
 :::
 
-::: {.fragment .fade-in fragment-index=4}
-- list a
-:::
-:::
-
-::: {.fragment .fade-in fragment-index=5 .overview-text-box style="text-align: center; background: gray; color: white; position: absolute; top: 275px; left: 570px; width: 450px;"}
-
-Aim 2
-
-::: {.fragment .fade-in fragment-index=6}
-- list
-:::
-
-::: {.fragment .fade-in fragment-index=7}
-- list a
+::: {.fragment .fade-in fragment-index=4 style="font-size: 20pt;"}
+- Shared Genes (MTAG)
 :::
 :::
 
+::: {.fragment .fade-in fragment-index=5 .overview-text-box data-id="aim2-box" style="text-align: center; background: gray; color: white; position: absolute; top: 300px; left: 560px; width: 450px; padding: 0.5em;"}
+
+Aim 2: Prediction Model
+
+::: {.fragment .fade-in fragment-index=6 style="font-size: 20pt;"}
+- PGS robust to Ancestry Differences (SBayesRC)
+:::
+
+:::
+
+## Project Overview {auto-animate="true"}
+
+::: {.fragment fragment-index=1 .fade-out .overview-text-box style="color: white; background: #385E9D; position: absolute; top: 100px; left: 50px; width: 1000px;"}
+
+[Hypothesis]{style="text-decoration: underline;"}
+
+[Using clear hearing and cognitive phenotypes, we can better understand the genetic relationship between ARHL and dementia.]{style="font-size: 20pt;"}
+:::
+
+::: {.fragment fragment-index=1 .fade-in .overview-text-box style="color: white; background: #385E9D; position: absolute; top: 100px; left: 50px; width: 1000px;"}
+
+[Hypothesis]{style="text-decoration: underline;"}
+
+[Specifically, we expect a mix of causal and mediating pathologies \n \s]{style="font-size: 20pt;"}
+:::
+
+::: {.overview-text-box data-id="aim1-box" style="text-align: center; background: var(--lab-yellow); color: white; position: absolute; top: 300px; left: 325px; width: 450px; padding: 0.5em; z-index: 1;"}
+
+Aim 1: Underlying Genetics
+
+::: {style="font-size: 20pt;"}
+- Causal Relationship (MR)
+:::
+
+::: {style="font-size: 20pt;"}
+- Shared Genes (MTAG)
+:::
+:::
+
+::: {.overview-text-box data-id="aim2-box" style="text-align: center; background: lightgray; opacity: 0.6; color: white; position: absolute; top: 300px; left: 760px; width: 450px; padding: 0.5em;"}
+
+Aim 2: Prediction Model
+
+::: {style="font-size: 20pt;"}
+- PGS robust to Ancestry Differences (SBayesRC)
+:::
+
+:::
 
 ## CLSA {data-name="Aim 1"}
 ### Canadian Longitudinal Study on Aging {style="color: gray;"}
@@ -319,11 +404,42 @@ Aim 2
 ![](img/aim1/clsa_desc_timeline_hl.jpeg)
 :::
 
-## CLSA {data-name="Aim 1"}
+## CLSA 
 ### Demographics {style="color: gray;"}
 
-
-
 - I still need to include plots on demographics
+- age, province, sex, personal income, urban_rural, education level
+- variables that paint a picture of the CLSA dataset
+
+## Phenotypes
+### Cognitive Impairment {style="color: gray;"}
+
+- CII
+
+## Phenotypes {#sec-arhl-phen}
+### ARHL Subtype Estimates {style="color: gray;"}
+
+- plot
+
+::: {.footer}
+Other ARHL phenotypes: @sec-arhl-other-phen
+:::
+
+## Genotype Data {#sec-arhl-phen}
+
+- plot
+
+::: {.footer}
+Other ARHL phenotypes: @sec-arhl-other-phen
+:::
 
 ## Aim 2 {data-name="Aim 2"}
+
+
+## Supplementary Slide {#sec-arhl-other-phen}
+
+hey?
+
+::: {.footer}
+Return to ARHL phenotypes: @sec-arhl-phen
+:::

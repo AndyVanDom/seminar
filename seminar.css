@@ -34,6 +34,10 @@
   margin-bottom: 0em !important;
 }
 
+.footer {
+  font-size: 15pt;
+}
+
 /* ################ */
 
 
@@ -356,15 +360,12 @@
 }
 
 .dementia-text-box:hover {
-    transform: scale(1.20);
+    transform: scale(1.10);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 
-.overview-text-box:hover {
-    transform: scale(1.25);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-}
+
 
 
 .overview-text-box {
@@ -377,7 +378,7 @@
 
 
 .overview-text-box:hover {
-    transform: scale(1.20);
+    transform: scale(1.10);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
