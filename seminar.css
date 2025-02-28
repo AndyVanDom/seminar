@@ -26,7 +26,7 @@
 }
 
 .reveal h3 {
-  font-size: 20pt;
+  font-size: 25pt;
 }
 
 .reveal .slide ul li { /* remove spacing margins in lists */
@@ -44,9 +44,37 @@
 /* ################ */
 /* Custom fragment settings */
 
+/* Fragment slides out to the left */
+.reveal .slides section .fragment.slide-out-to-left {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  transition: transform 0.75s ease-out, opacity 3s ease-out;
+}
+
+.reveal .slides section .fragment.slide-out-to-left.visible {
+  transform: translateX(-100vw);
+  opacity: 0;
+}
+/* ######## */
+
+/* Fragment slides in from the right */
+.reveal .slides section .fragment.slide-out-to-right {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  transition: transform 0.75s ease-out, opacity 0.5s ease-out;
+}
+
+.reveal .slides section .fragment.slide-out-to-right.visible {
+  transform: translateX(100vw);
+  opacity: 0;
+}
+/* ######## */
+
 /* Fragment slides in from the left */
 .reveal .slides section .fragment.slide-in-from-left {
-  transform: translateX(-100vh);
+  transform: translateX(-100vw);
   opacity: 0;
   transition: transform 0.75s ease-out, opacity 0.5s ease-out;
 }
@@ -59,7 +87,7 @@
 
 /* Fragment slides in from the right */
 .reveal .slides section .fragment.slide-in-from-right {
-  transform: translateX(100vh);
+  transform: translateX(100vw);
   opacity: 0;
   transition: transform 0.75s ease-out, opacity 0.5s ease-out;
 }
@@ -99,7 +127,7 @@
 
 /* Fragment slides in from the left then out to the right */
 .reveal .slides section .fragment.slide-in-from-left-then-right {
-  transform: translateX(-100vh);
+  transform: translateX(-100vw);
   opacity: 0;
   transition: transform 0.75s ease-out, opacity 0.5s ease-out;
 }
@@ -111,13 +139,13 @@
 }
 
 .reveal .slides section .fragment.slide-in-from-left-then-right.visible {
-  transform: translateX(100vh);
+  transform: translateX(100vw);
 }
 /* ######## */
 
 /* Fragment slides in from the right then out to the left */
 .reveal .slides section .fragment.slide-in-from-right-then-left {
-  transform: translateX(100vh);
+  transform: translateX(100vw);
   opacity: 0;
   transition: transform 0.75s ease-out, opacity 0.5s ease-out;
 }
@@ -129,7 +157,7 @@
 }
 
 .reveal .slides section .fragment.slide-in-from-right-then-left.visible {
-  transform: translateX(-100vh);
+  transform: translateX(-100vw);
 }
 /* ######## */
 
@@ -170,7 +198,7 @@
 
 /* Fragment slides in from the left then fade out */
 .reveal .slides section .fragment.slide-in-from-left-then-fade {
-  transform: translateX(-100vh);
+  transform: translateX(-100vw);
   opacity: 0;
   transition: transform 0.75s ease-out, opacity 0.5s ease-out;
 }
@@ -188,7 +216,7 @@
 
 /* Fragment slides in from the left then fade out */
 .reveal .slides section .fragment.slide-in-from-right-then-fade {
-  transform: translateX(100vh);
+  transform: translateX(100vw);
   opacity: 0;
   transition: transform 0.75s ease-out, opacity 0.5s ease-out;
 }
@@ -203,6 +231,30 @@
   opacity: 0;
 }
 /* ######## */
+
+
+/* Fragment Slow Speeds */
+.reveal .slides section .fragment.slow5 {
+    transition: all 2.7s ease;
+}
+
+.reveal .slides section .fragment.slow4 {
+    transition: all 2.2s ease;
+}
+
+.reveal .slides section .fragment.slow3 {
+    transition: all 1.7s ease;
+}
+
+.reveal .slides section .fragment.slow2 {
+    transition: all 1.2s ease;
+}
+
+.reveal .slides section .fragment.slow1 {
+    transition: all 0.7s ease;
+}
+/* ################################# */
+
 
 
 /* ################################################################ */
