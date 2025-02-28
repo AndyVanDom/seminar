@@ -1,6 +1,6 @@
 ---
-title: 'Title'
-subtitle: 'an introduction and overview'
+title: 'Uncovering the genetic relationship between dementia and age-
+related hearing loss'
 format:
   revealjs:
     auto-animate-unmatched: false
@@ -333,7 +333,7 @@ Neuroplastic Reorganization
 ## Do Hearing Loss and Dementia share a common cause?
 
 - Inflammation
-- Cardiovascular Disease
+- Poor Vascular Health
 - Protein Aggregates
 - Genetic Factors
 
@@ -987,4 +987,3 @@ CHRONIC INFLAMMATION
 ::: {.fragment .fade-in fragment-index=6 .dementia-text-box style="text-align: center; background: var(--lab-yellow); color: white; position: absolute; top: 445px; left: 550px; width: 500px; padding: 0.1em;"}
 GENETICS
 :::
-
