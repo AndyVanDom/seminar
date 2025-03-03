@@ -15,6 +15,7 @@ format:
     controls-layout: edges
     chalkboard: false
     menu: false
+    multiplex: true
     simplemenu:
         flat: true
         barhtml:
