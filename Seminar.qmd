@@ -34,11 +34,13 @@ date: "March 5, 2025"
 
 ---
 
-## What is Dementia? {data-name="Background" auto-animate="true"}
-### A Common Neurodegenerative Disorder {style="color: gray; font-size: 23pt !important;"}
+## What is dementia? {data-name="Background" auto-animate="true"}
+### A common neurodegenerative disorder {style="color: gray; font-size: 23pt !important;"}
 
 ::: {.fragment fragment-index='1' .fade-in}
+::: {.fragment fragment-index=3 .semi-fade-out}
 Symptoms
+:::
 :::
 
 ::: {.fragment fragment-index='3' .fade-in}
@@ -107,8 +109,8 @@ Demographics
 ![](img/dem/dem_sub_text.png)
 :::
 
-## What is Dementia? {auto-animate="true"}
-### A Common Neurodegenerative Disorder {style="color: gray; font-size: 23pt !important;"}
+## What is dementia? {auto-animate="true"}
+### A common neurodegenerative disorder {style="color: gray; font-size: 23pt !important;"}
 
 ::: {style="opacity: 50%;"}
 Symptoms
@@ -124,11 +126,11 @@ Subtypes
 :::
 
 ::: {data-id="subtype2" style="position: absolute; left: 23%; top: 0px; width: 950px; height: auto;"}
-![](img/dem/dem_sub_text.png)
+![](img/dem/dem_sub_text_2.png)
 :::
 
-## What is Dementia? {auto-animate="true"}
-### A Common Neurodegenerative Disorder {style="color: gray; font-size: 23pt !important;"}
+## What is dementia? {auto-animate="true"}
+### A common neurodegenerative disorder {style="color: gray; font-size: 23pt !important;"}
 
 ::: {style="opacity: 50%;"}
 Symptoms
@@ -171,31 +173,43 @@ GENETICS
 
 
 
-## [What are the Risk Factors for Dementia?]{style="font-size: 35pt;"} {.scrollable}
+## [What are the [risk factors]{style="color: var(--lab-blue);"} for dementia?]{style="font-size: 35pt;"} {.scrollable}
 ### ([Global](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01296-0/fulltext){target="_blank"})
 
 
-:::: {.fragment style="position: absolute; left: 200px; top: 100px; width: 750px; height: auto;"}
+:::: {.fragment fragment-index=1 .fade-in-then-out style="position: absolute; left: 200px; top: 100px; width: 750px; height: auto;"}
 ![](img/dem/dem_lancet.jpg)
 
 ::: {data-id="4em-space" style="display:inline-block; height:4em;"}
 :::
-
 ::::
 
-## [What are the Risk Factors for Dementia?]{style="font-size: 35pt;"} {.scrollable}
+:::: {.fragment fragment-index=2 .fade-in style="position: absolute; left: 200px; top: 100px; width: 750px; height: auto;"}
+![](img/dem/dem_lancet_hl.jpeg)
+
+::: {data-id="4em-space" style="display:inline-block; height:4em;"}
+:::
+::::
+
+## [What are the [risk factors]{style="color: var(--lab-blue);"} for dementia?]{style="font-size: 35pt;"} {.scrollable}
 ### ([Canada](https://www.sciencedirect.com/science/article/pii/S2274580724006800?via%3Dihub){target="_blank"})
 
-:::: {.fragment style="position: absolute; left: 150px; top: 100px; width: 850px; height: auto;"}
+:::: {.fragment fragment-index=1 .fade-in-then-out style="position: absolute; left: 150px; top: 100px; width: 850px; height: auto;"}
 ![](img/dem/dem_son.jpg)
 
 ::: {data-id="4em-space" style="display:inline-block; height:4em;"}
 :::
+::::
 
+:::: {.fragment fragment-index=2 .fade-in style="position: absolute; left: 150px; top: 100px; width: 850px; height: auto;"}
+![](img/dem/dem_son_hl.jpg)
+
+::: {data-id="4em-space" style="display:inline-block; height:4em;"}
+:::
 ::::
 
 
-## How are Hearing Loss and Dementia connected? {auto-animate="true"}
+## How are hearing loss and dementia connected? {auto-animate="true"}
 
 
 :::: {.columns}
@@ -220,7 +234,7 @@ GENETICS
 ![](img/arhl-dem/causal.png)
 :::
 
-## [Can Hearing Loss [cause]{style="color: var(--lab-blue);"} Dementia?]{style="font-size: 45pt;"} {auto-animate="true"}
+## [Can hearing loss [cause]{style="color: var(--lab-blue);"} dementia?]{style="font-size: 45pt;"} {auto-animate="true"}
 
 ::: {data-id="causal-sml" style="position: absolute; top: -3%; left: 86%; width: 200px; opacity: 0.5;"}
 ![](img/arhl-dem/causal.png)
@@ -228,12 +242,12 @@ GENETICS
 
 ::: {.fragment fragment-index=1 .fade-in}
 ::: {.fragment fragment-index=3 .semi-fade-out}
-Altered Cognitive Load
+Altered cognitive load
 :::
 :::
 
 ::: {.fragment fragment-index=3 .fade-in-then-semi-out}
-Neuroplastic Reorganization
+Neuroplastic reorganization
 :::
 
 ::: {.fragment fragment-index=4 .fade-in style="width: 800px; color: var(--lab-yellow);"}
@@ -314,7 +328,7 @@ Neuroplastic Reorganization
 ![](img/arhl-dem/mediate.png)
 :::
 
-## Do Hearing Loss and Dementia share a [common cause]{style="color: var(--lab-blue);"}? {auto-animate="true"}
+## Do hearing loss and dementia share a [common cause]{style="color: var(--lab-blue);"}? {auto-animate="true"}
 
 ::: {.fragment fragment-index=1 .fade-in}
 Inflammation
@@ -354,17 +368,32 @@ Genetic Factors
 ## [[MTAG]{style="color: var(--lab-blue);"} to find a [common cause]{style="color: var(--lab-blue);"}]{style="font-size: 35pt;"}{auto-animate="true"}
 ### (Multi-Trait Analysis of GWAS) {style="color: gray;"}
 
-::: {.fragment fragment-index=1 .fade-out style="position: absolute; top: 150px; left: 25px; width: 1000px;"}
+::: {data-id="mtag1" style="position: absolute; top: 150px; left: 25px; width: 1000px;"}
 ![](img/mtag/mtag1.png)
 :::
 
-::: {.fragment fragment-index=1 .fade-in}
-::: {style="position: absolute; top: 150px; left: 225px; width: 500px;" data-id="mtag"}
+::: {style="position: absolute; top: 120px; left: 2500px; width: 500px;" data-id="mtag"}
 ![](img/mtag/mtag2.png)
-:::
 :::
 
 ## [[MTAG]{style="color: var(--lab-blue);"} to find a [common cause]{style="color: var(--lab-blue);"}]{style="font-size: 35pt;"}{auto-animate="true"}
+### (Multi-Trait Analysis of GWAS) {style="color: gray;"}
+
+::: {data-id="mtag1" style="position: absolute; top: 20%; left: 0%; width: 450px;"}
+![](img/mtag/mtag1.png)
+:::
+
+
+::: {style="position: absolute; top: 120px; left: 500px; width: 500px;" data-id="mtag"}
+![](img/mtag/mtag2.png)
+:::
+
+
+::: {style="position: absolute; top: 153%; left: 154%; width: 400px;" data-id="fine-map"}
+![](img/mtag/fine-map.png)
+:::
+
+## [[MTAG]{style="color: var(--lab-blue);"} to find a [common cause]{style="color: var(--lab-blue);"}]{style="font-size: 35pt;"}{auto-animate="true" visibility="hidden"}
 ### (Multi-Trait Analysis of GWAS) {style="color: gray;"}
 
 ::: {style="width: 450px;"}
@@ -396,7 +425,7 @@ Genetic Factors
 ![](img/mtag/fine-map.png)
 :::
 
-## [[No Clear Consensus]{style="color: var(--lab-blue);"} on Genetic Relationship]{style="font-size:30pt;"}
+## [[No clear consensus]{style="color: var(--lab-blue);"} on genetic relationship]{style="font-size:30pt;"}
 
 :::: {.fragment fragment-index=1 .fade-out style="position: absolute; top: 75px; left: 0px;"}
 ````{=html}
@@ -665,7 +694,7 @@ Genetic Factors
 
 :::
 
-## [Evidence for a [Genetic Correlation]{style="color: var(--lab-blue);"} between Specific Hearing Loss Subtypes and Dementia]{style="font-size: 30pt;"}
+## [Evidence for a [genetic correlation]{style="color: var(--lab-blue);"} between specific hearing loss subtypes and dementia]{style="font-size: 30pt;"}
 
 ::: {style="width: 400px;"}
 
@@ -708,7 +737,7 @@ Genetic Factors
 
 [Hypothesis]{style="text-decoration: underline;"}
 
-[Using clear hearing and cognitive phenotypes, we can better understand the genetic relationship between ARHL and dementia.]{style="font-size: 27pt;"}
+[Using clear hearing and cognitive phenotypes, we can better understand the relationship between ARHL and dementia.]{style="font-size: 27pt;"}
 :::
 
 ::: {.fragment .fade-in fragment-index=2 .overview-text-box data-id="aim1-box" style="text-align: center; background: gray; color: white; position: absolute; top: 300px; left: 50px; width: 450px; padding: 0.5em;"}
@@ -729,7 +758,7 @@ Aim 1: Underlying Genetics
 Aim 2: Prediction Model
 
 ::: {.fragment .fade-in fragment-index=6}
-[- PGS robust to Ancestry Differences (SBayesRC)]{style="font-size: 23pt; text-align: center;"}
+[- PGS robust to ancestry differences (SBayesRC)]{style="font-size: 23pt; text-align: center;"}
 :::
 
 :::
@@ -759,7 +788,7 @@ Aim 1: Underlying Genetics
 
 Aim 2: Prediction Model
 
-[- PGS robust to Ancestry Differences (SBayesRC)]{style="font-size: 23pt; text-align: center;"}
+[- PGS robust to ancestry differences (SBayesRC)]{style="font-size: 23pt; text-align: center;"}
 
 
 :::
@@ -852,7 +881,7 @@ Cross-Sectional and Longitudinal Data
 ![](img/aim1/clsa/clsa_inc_by_age.png)
 :::
 
-## [What is our [Dementia Phenotype]{style="color: var(--lab-blue);"}?]{style="font-size: 40pt;"}
+## [What is our [dementia phenotype]{style="color: var(--lab-blue);"}?]{style="font-size: 40pt;"}
 ### [Cognitive Impairment Indicator]{style="color: var(--lab-blue);"} {style="font-size: 20pt !important;"}
 
 ::: {.fragment fragment-index=1 .fade-in-then-out style="width: 300px; position: absolute; top: 28%; left: 5%; font-size: 35pt;"}
@@ -936,8 +965,8 @@ Social Activity
 :::
 
 
-## [What is our [Hearing Loss Phenotype]{style="color: var(--lab-blue);"}?]{style="font-size: 40pt;"} {auto-animate="true"}
-### [ARHL Subtype Estimates]{style="color: var(--lab-blue);"}
+## [What is our [hearing loss phenotype]{style="color: var(--lab-blue);"}?]{style="font-size: 40pt;"} {auto-animate="true"}
+### [ARHL subtype estimates]{style="color: var(--lab-blue);"}
 
 ::: {style="position: absolute; top: 100px; left: 500px;"}
 ![](img/aim1/vaden_plot.jpeg){style="width: 475px;"}
@@ -949,8 +978,8 @@ Metabolic Hearing Loss
 Sensory Hearing Loss
 ::::
 
-## [What is our [Hearing Loss Phenotype]{style="color: var(--lab-blue);"}?]{style="font-size: 40pt;"} {auto-animate="true"}
-### [ARHL Subtype Estimates]{style="color: var(--lab-blue);"}
+## [What is our [hearing loss phenotype]{style="color: var(--lab-blue);"}?]{style="font-size: 40pt;"} {auto-animate="true"}
+### [ARHL subtype estimates]{style="color: var(--lab-blue);"}
 
 ::: {style="position: absolute; top: 100px; left: 500px;"}
 ![](img/aim1/vaden_m.png){style="width: 475px;"}
@@ -970,8 +999,8 @@ Strongly correlated with:
 
 ::::
 
-## [What is our [Hearing Loss Phenotype]{style="color: var(--lab-blue);"}?]{style="font-size: 40pt;"} {auto-animate="true"}
-### [ARHL Subtype Estimates]{style="color: var(--lab-blue);"}
+## [What is our [hearing loss phenotype]{style="color: var(--lab-blue);"}?]{style="font-size: 40pt;"} {auto-animate="true"}
+### [ARHL subtype estimates]{style="color: var(--lab-blue);"}
 
 ::: {style="position: absolute; top: 100px; left: 500px;"}
 ![](img/aim1/vaden_s.png){style="width: 475px;"}
@@ -989,14 +1018,14 @@ Not strongly correlated with:
 :::
 ::::
 
-## What's in the CLSA [Genotype Data]{style="color: var(--lab-blue);"}?
+## What's in the CLSA [genotype data]{style="color: var(--lab-blue);"}?
 
 ::: {.fragment fragment-index=1 .slide-in-from-top data-id="edi-sml" style="position: absolute; top: 0%; left: 100%; width: 70px;"}
 ![](img/EDI.png)
 :::
 
 ::: {.fragment fragment-index=1 .fade-in-then-semi-out}
-26,622 Individuals
+26,622 individuals
 :::
 
 ::: {.fragment fragment-index=2 .fade-in-then-semi-out}
@@ -1019,14 +1048,14 @@ Extensive QC
 ![](img/aim1/clsa/clsa_ancestry_hl.png)
 :::
 
-## Current Step {auto-animate="true"}
+## Current step {auto-animate="true"}
 
 ::: {.fragment fragment-index=1 .fade-in style="position: absolute; top: 10%; left: 0%; width: 400px;"}
 ![](img/future/gwas.png)
 :::
 
 ::: {.fragment fragment-index=2 .slide-in-from-right .slow1 style="position: absolute; top: 15%; left: 40%; width: 400px;"}
-- Identify Covariates
+- Identify covariates
 - Perform GWAS ([PLINK]{style="color:gray;"})
 :::
 
@@ -1034,7 +1063,7 @@ Extensive QC
 ![](img/dem/dem_lancet.jpg)
 :::
 
-## Next Steps {data-name="Future" auto-animate="true"}
+## Next steps {data-name="Future" auto-animate="true"}
 
 :::: {style="width:400px; font-size: 26pt;"}
 ::: {.fragment fragment-index=2 .fade-in-then-semi-out}
@@ -1093,7 +1122,7 @@ Aim 1: Underlying Genetics
 [Aim 2: Prediction Model]{style="font-size: 23pt;"}
 :::
 
-## Next Steps {auto-animate="true"}
+## Next steps {auto-animate="true"}
 
 ::: {style="position: absolute; top: -5%; left: 45%; width: 500px;"}
 ![](img/future/design1.png)
@@ -1115,7 +1144,7 @@ Aim 1: Underlying Genetics
 [Future Directions]{style="font-size: 23pt;"}
 :::
 
-## [Future Directions]{style="color: var(--lab-blue)"} {auto-animate="true"}
+## [Future directions]{style="color: var(--lab-blue)"} {auto-animate="true"}
 
 ::: {.fragment fragment-index=1 .slide-in-from-top .slow2 data-id="edi-sml" style="position: absolute; top: 0%; left: 100%; width: 70px;"}
 ![](img/EDI.png)
@@ -1133,7 +1162,7 @@ Sex-stratified GWAS
 :::
 
 :::: {.column width="33%" .fragment fragment-index=2 .fade-in-then-semi-out}
-HLA Complex
+MHC complex
 
 
 ![](img/future/future_hla.png){style="width: 80px;"}
@@ -1142,7 +1171,7 @@ HLA Complex
 ::::
 
 ::: {.column width="33%" .fragment fragment-index=3 .fade-in-then-semi-out}
-Short-tandem Repeats
+Short-tandem repeats
 
 
 ![](img/future/future_str.png){style="width: 250px;"}
@@ -1163,8 +1192,8 @@ Short-tandem Repeats
 ::: {.column width="33%" .fragment fragment-index=1 .fade-in-then-semi-out}
 **Sample Population**
 
-::: {style="width: 350px;"}
-![](img/future/canadians.png)
+::: {style="width: 325px;"}
+![](img/future/canada.png)
 :::
 
 :::
@@ -1202,7 +1231,7 @@ Short-tandem Repeats
 ![](img/EDI.png)
 :::
 
-## [EDIAJ Considerations]{style="color: #ef4040;"} {auto-animate="true"}
+## [EDIAJ considerations]{style="color: #ef4040;"} {auto-animate="true"}
 
 ::: {data-id="edi-sml" style="position: absolute; top: -4%; left: 60%; width: 75px;"}
 ![](img/EDI.png)
@@ -1231,7 +1260,7 @@ Short-tandem Repeats
 
 :::
 
-## Final Thoughts {auto-animate="true"}
+## Final thoughts {auto-animate="true"}
 
 ::: {.overview-text-box data-id="future" style="background: gray; position: absolute; top: 13%; left: 0%; width: 1050px; padding: 0.5em; z-index: 1;"}
 
@@ -1374,17 +1403,82 @@ GENETICS
 
 ## Supp. 3 - Met. HL Gene Information
 
-## Supp. 4 - Other CLSA data
+::: {style="position: absolute; top: 15%;"}
+``` {=html}
 
-## Supp. 5 - Genotype QC, Imputation Details
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:22px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:22px !important;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top; font-size:22px !important;}
+.tg .tg-0lax{text-align:left;vertical-align:top; font-size:22px !important;}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:bold">Gene</span></th>
+    <th class="tg-1wig"><span style="font-weight:bold">Function</th>
+    <th class="tg-0lax"><span style="font-weight:bold">Details</span></th>
+  </tr></thead>
+<tbody>
 
-## Supp. 6 - Initial Analysis
+  <tr>
+    <td class="tg-0lax"><i>ARHGEF28</i></td>
+    <td class="tg-0lax">Rho-guanine nuclotide exchange factor</td>
+    <td class="tg-0lax">Implicated in motor neuron disease pathogenesis; significantly associated with hearing difficulty.</td>
+  </tr>
+  
+    <tr>
+    <td class="tg-0lax"><i>FUS</i></td>
+    <td class="tg-0lax">RNA-binding protein</td>
+    <td class="tg-0lax">Mislocalizes and forms aggregates (FTD); may maintain homeostasis in SV of inner ear</td>
+  </tr>
+  
+    <tr>
+    <td class="tg-0lax"><i>IPO7</i></td>
+    <td class="tg-0lax">Nuclear import protein</td>
+    <td class="tg-0lax">modulates phase behavior of prion-like proteins (<i>FUS</i> included); linked to inflammatory responses in brain</td>
+  </tr>
+</tbody>
 
-## Image sources {.scrollable}
+  <tfoot>
+    <tr>
+      <td colspan="3" style="text-align:left; padding-top: 10px; font-size: 20pt">
+        <strong>Acronyms:</strong> <strong>FTD</strong> = Frontotemporal Dementia; <strong>SV</strong> = Stria Vascularis.
+      </td>
+    </tr>
+</tfoot>
 
-::: {style="font-size: 25pt;"}
+</table>
+  
+```
+:::
 
-- source 1
-- source 2
-- 
+## Supp. 4 - MR and MTAG assumptions
+
+:::: {.columns style="font-size: 25pt;"}
+
+::: {.column}
+**MR**
+
+- variants are strongly associated with the exposure, and explain a significant portion of the variability
+- variants are independent of confounders affecting both exposure and outcome
+- variants only affect outcome through their impact on the exposure
+:::
+
+::: {.column}
+**MTAG**
+
+- variants influence the traits in a similar way (homogenous effect sizes)
+- small errors or randomness in our estimates don't distort our findings (sampling variance)
+- sample overlap is accurately accounted for (bi-LDSC)
+:::
+
+::::
+
+## Supp. 5 - Other CLSA data
+
+::: {style="width: 900px;"}
+![](img/supp/clsa_biospecimen.png)
 :::

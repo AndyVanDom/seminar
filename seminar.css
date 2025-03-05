@@ -19,6 +19,27 @@
 /* ################ */
 
 
+/* ############################################################# */
+
+/* Slide number settings */
+
+.reveal .slide-number,
+.menubar .slide-number {
+  color: #274575 !important;
+  font-size: 30pt !important;
+}
+
+/*removes simple-menu's opacity setting on slide number */
+.reveal .slide-number a, .menubar .slide-number a {
+  padding: 0;
+  opacity: 1 !important;
+  color: currentColor;
+}
+.reveal .slide-number a:hover, .menubar .slide-number a:hover {
+  color: currentColor;
+  opacity: 1 !important;
+}
+
 
 /* Reveal settings */
 .reveal h2 {
